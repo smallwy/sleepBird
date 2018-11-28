@@ -10,12 +10,12 @@ import java.util.List;
  */
 public interface IThread_Pool {
 
-  /** 加入任务 */
+  /** 加入任务1 */
   void execute(Runnable task);
 
 
     /**
-     * 加入任务
+     * 加入任务1
      */
   void execute(Runnable[] tasks);
 
