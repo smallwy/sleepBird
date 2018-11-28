@@ -17,7 +17,7 @@ public interface IThread_Pool {
   void execute(Runnable[] tasks);
 
   /**
-   * 任务lie
+   * 任务lie00
    * 列表
    */
   void execute(List<Runnable> tasks);
