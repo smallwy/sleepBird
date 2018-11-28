@@ -94,7 +94,7 @@ public class ThreadPoolImpl implements IThread_Pool {
 
   @Override
   public void destroy() {
-    // 循环是否还存在任务，如果存在等待20毫秒处理时间sss
+      // 循环是否还存在任务，如果存在等待20毫秒处理时间sss
     while (!taskQueue.isEmpty()) {
       try {
         Thread.sleep(20);
