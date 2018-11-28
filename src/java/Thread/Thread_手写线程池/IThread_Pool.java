@@ -16,7 +16,10 @@ public interface IThread_Pool {
   /** 加入任务 */
   void execute(Runnable[] tasks);
 
-  /** 加入任务 */
+  /**
+   * 任务lie
+   * 列表
+   */
   void execute(List<Runnable> tasks);
 
   /** 销毁线程 */
