@@ -17,10 +17,8 @@ public class _3_Thread_synchronized implements Runnable {
 
   /**
    * synchronized的使用
-   *
-   * <p>注意事项(1):用synchronized锁定的对象不能为null.(2)synchronized的作用域不宜过大 多大会导致程序的效率变低
-   *
-   *(3): synchronized必须锁定的是同一个引用 否则不具有排斥性
+   * <p>注意事项(1):用synchronized锁定的对象不能为null (2):synchronized的作用域不宜过大 多大会导致程序的效率变低
+   * (3):synchronized必须锁定的是同一个引用 否则不具有排斥性 (4)尽量不要使用多个synchronized嵌套 很容易导致死锁
    */
   @Override
   public void run() {
