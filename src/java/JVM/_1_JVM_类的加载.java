@@ -8,6 +8,32 @@ package JVM;
  **/
 public class _1_JVM_类的加载 {
 
+
+    private static _1_JVM_类的加载 sigton=new _1_JVM_类的加载();//(1)
+
+    private static  int i=0;
+
+    private  static int j;
+    /*(1)和（2）输出的结果分别不一样  new 的时候调用构造函数 会使类初始化*/
+    /*private static _1_JVM_类的加载 sigton=new _1_JVM_类的加载();(2)*/
+
+    public static _1_JVM_类的加载 getSigton() {
+        return sigton;
+    }
+
+    private  _1_JVM_类的加载(){
+        i++;
+        j++;
+    }
+
+    public static void main(String[] args){
+        _1_JVM_类的加载 ss=_1_JVM_类的加载.getSigton();
+        System.out.println(ss.i);
+        System.out.println(ss.j);
+    }
+
+
+
     /*
     *类的加载过程
     *加载阶段--》（验证，准备，解析）--》初始化阶段
@@ -26,5 +52,7 @@ public class _1_JVM_类的加载 {
     *（4）使用反射操作 会导致类的初始化
     *（5）初始化子类会导致初始化父类
     * */
+
+
 
 }
