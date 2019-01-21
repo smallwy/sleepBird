@@ -1,4 +1,4 @@
-package DesignMode;
+package 设计模式.单例;
 
 import org.junit.jupiter.api.Test;
 
