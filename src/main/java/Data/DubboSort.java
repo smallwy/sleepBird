@@ -27,9 +27,7 @@ public class DubboSort {
             //内层 i和i+1作比较 循环次数以end为基准
             for (int start = 0; start < end; start++) {
                 if (arrays[start] > arrays[start + 1]) {
-                    int temp = arrays[start];
-                    arrays[start] = arrays[start + 1];
-                    arrays[start + 1] = temp;
+                    DataUtil.cmp(arrays, start, start + 1);
                 }
             }
         }
@@ -108,7 +106,7 @@ public class DubboSort {
         Integes.ptint(arrays);*/
 
         DubboSort m = new DubboSort();
-        m.SelectTest3();
+        m.DobbleTest1();
         Integes.ptint(arrays);
 
     }

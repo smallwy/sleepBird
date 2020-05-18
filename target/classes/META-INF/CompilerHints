@@ -3,5 +3,7 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,jmh/Mybenchmark.a
-inline,jmh/Mybenchmark.b
+inline,Data/DubboSort.DobbleTest1
+inline,Data/DubboSort.DobbleTest2
+inline,Data/DubboSort.DobbleTest3
+inline,Data/DubboSort.SelectTest3
