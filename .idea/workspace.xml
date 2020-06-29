@@ -1,157 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc9d63cb-9731-4a25-bb38-5a50af83fe35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/Exercise/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/Test01.java" afterDir="false" />
+    <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题改善.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题更优.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/_5_Thread_interrupted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/Exercise/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepBird.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sleepBird.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Wuxia-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/DataUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/DubboSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/HeadSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/Integes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/SelectSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/DubboSort_DobbleTest1_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/DubboSort_DobbleTest2_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/DubboSort_DobbleTest3_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/DubboSort_SelectTest3_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/DubboSort_jmhType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/DubboSort_jmhType_B1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/DubboSort_jmhType_B2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/DubboSort_jmhType_B3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/maopao_1_jmhType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/maopao_1_jmhType_B1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/maopao_1_jmhType_B2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/maopao_1_jmhType_B3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/maopao_1_test1_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/maopao_1_test2_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/maopao_1_test3_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/paixu_1_DobbleTest1_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/paixu_1_DobbleTest2_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/paixu_1_DobbleTest3_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/paixu_1_SelectTest3_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/paixu_1_jmhType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/paixu_1_jmhType_B1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/paixu_1_jmhType_B2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/generated/paixu_1_jmhType_B3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JVM/_1_JVM_类的加载.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sleepBird.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/ReentrantLockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/TestAtomicStampRefrence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/Thread_手写线程池/IThread_Pool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/Thread_手写线程池/ThreadPoolImpl$WorkerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/Thread_手写线程池/ThreadPoolImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/Thread_手写线程池/ThreadPoolTest$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/Thread_手写线程池/ThreadPoolTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/_1_Thread之构造函数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/_2_Thread_Join$joinThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/_2_Thread_Join$mianThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/_2_Thread_Join.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/_2_Thread_Sleep$t1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/_2_Thread_Sleep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/_3_Thread_synchronized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Thread/_3_Thread_wait_notify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/annotion_注解/PasswordUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/annotion_注解/annotion_定义.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/annotion_注解/test_解析注解.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrent/ConcurrentSkipListMapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrent/ConcurrentSkipListMapTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/https与http/appTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jmh/Mybenchmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jmh/generated/Mybenchmark_a_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jmh/generated/Mybenchmark_b_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jmh/generated/Mybenchmark_jmhType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jmh/generated/Mybenchmark_jmhType_B1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jmh/generated/Mybenchmark_jmhType_B2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jmh/generated/Mybenchmark_jmhType_B3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/ThreadHandleer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/nio_client同步阻塞.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty/nio_同步阻塞.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/代理模式/动态代理/InvocationHandlerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/代理模式/静态代理/IUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/代理模式/静态代理/ProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/代理模式/静态代理/UserImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/代理模式/静态代理/UserImpProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/单例/Gof23之单例模式$holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/单例/Gof23之单例模式.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/原型设计模式/浅克隆/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/原型设计模式/浅克隆/TestClone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/外观模式/EmialService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/外观模式/MSNService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/外观模式/WeiXinService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/外观模式/emailImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/外观模式/msnImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/外观模式/sendMsg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/外观模式/testS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/外观模式/weixinImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/工厂方法模式/AudiCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/工厂方法模式/AudiFacyory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/工厂方法模式/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/工厂方法模式/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/工厂方法模式/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/工厂方法模式/JiliCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/工厂方法模式/JiliFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/简单工厂/AudiCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/简单工厂/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/简单工厂/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/简单工厂/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/工厂设计模式/简单工厂/JiliCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/模板方法设计模式/BankTemplateMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/模板方法设计模式/PersonA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/模板方法设计模式/PersonB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/模板方法设计模式/testPerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/适配器模式/CN220VImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/适配器模式/CN220VInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/适配器模式/ElectricCooker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/适配器模式/JP110VImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/适配器模式/JP110VInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/适配器模式/PowerAdaptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/适配器模式/testAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/DubboSort_DobbleTest1_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/DubboSort_DobbleTest2_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/DubboSort_DobbleTest3_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/DubboSort_SelectTest3_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/DubboSort_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/DubboSort_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/DubboSort_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/DubboSort_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/maopao_1_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/maopao_1_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/maopao_1_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/maopao_1_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/maopao_1_test1_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/maopao_1_test2_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/maopao_1_test3_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/paixu_1_DobbleTest1_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/paixu_1_DobbleTest2_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/paixu_1_DobbleTest3_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/paixu_1_SelectTest3_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/paixu_1_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/paixu_1_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/paixu_1_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/Data/generated/paixu_1_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/jmh/generated/Mybenchmark_a_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/jmh/generated/Mybenchmark_b_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/jmh/generated/Mybenchmark_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/jmh/generated/Mybenchmark_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/jmh/generated/Mybenchmark_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/jmh/generated/Mybenchmark_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/commons-math3-3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jmh-core-1.17.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jmh-generator-annprocess-1.17.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/jopt-simple-4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/Exercise/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/Exercise/Test1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -174,128 +30,118 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="sleepBird" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Test01.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Exercise/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="895">
+              <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Exercise/Test2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_2_Thread_Sleep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Exercise/Test1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_2_Thread_Join.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="-541">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_5_Thread_interrupted.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#1873#1874#0" expanded="true" />
-                <element signature="e#1901#1902#0" expanded="true" />
-                <element signature="e#1948#1949#0" expanded="true" />
-                <element signature="e#1982#1983#0" expanded="true" />
+                <element signature="e#424#717#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#775#898#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Integer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jmh/Mybenchmark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="1560" column="22" selection-start-line="1560" selection-start-column="22" selection-end-line="1560" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题更优.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
-                <element signature="e#59796#59797#0" expanded="true" />
-                <element signature="e#59824#59825#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Collection.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="579" column="22" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="22" />
-              <folding>
-                <element signature="e#26957#26958#0" expanded="true" />
-                <element signature="e#27022#27023#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="203">
+              <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Comparator.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ExecutorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="458" column="35" selection-start-line="458" selection-start-column="35" selection-end-line="458" selection-end-column="35" />
+            <state relative-caret-position="203">
+              <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/stream/Stream.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/stream/ReferencePipeline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="518" column="35" selection-start-line="518" selection-start-column="35" selection-end-line="518" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/stream/AbstractPipeline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="225" column="16" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/function/BinaryOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="203">
+              <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -332,6 +178,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题.java" />
         <option value="$PROJECT_DIR$/src/main/java/lambda/Test01.java" />
         <option value="$PROJECT_DIR$/src/main/java/lambda/Exercise/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题改善.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题更优.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lambda/Exercise/Test2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/_5_Thread_interrupted.java" />
       </list>
     </option>
   </component>
@@ -358,11 +208,6 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Wuxia" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Wuxia" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
@@ -370,7 +215,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -402,7 +247,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -434,7 +278,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="JVM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sleepBird" type="b2602c69:ProjectViewProjectNode" />
@@ -442,30 +286,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="Test01.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="sleepBird" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sleepBird" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sleepBird" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="sleepBird" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,12 +300,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Thread" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\sleepBird\src\main\java\Thread" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Thread" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\sleepBird\src\main" />
     </key>
@@ -495,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test1.filterTest">
+  <component name="RunManager" selected="JUnit._5_Thread_interrupted.test4">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -504,57 +338,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01.testCompare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sleepBird" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.Test01" />
-      <option name="METHOD_NAME" value="testCompare" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sleepBird" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.Test01" />
-      <option name="METHOD_NAME" value="testCount" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01.testJudge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sleepBird" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.Test01" />
-      <option name="METHOD_NAME" value="testJudge" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -593,6 +376,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sleepBird" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.Exercise" />
+      <option name="MAIN_CLASS_NAME" value="lambda.Exercise.Test2" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sleepBird" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.Exercise" />
+      <option name="MAIN_CLASS_NAME" value="lambda.Exercise.Test2" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_5_Thread_interrupted.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sleepBird" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Thread" />
+      <option name="MAIN_CLASS_NAME" value="Thread._5_Thread_interrupted" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -619,19 +453,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test01.testJudge" />
-      <item itemvalue="JUnit.Test01.testCompare" />
-      <item itemvalue="JUnit.Test01.testCount" />
       <item itemvalue="JUnit.Test1.sumAdd" />
       <item itemvalue="JUnit.Test1.filterTest" />
+      <item itemvalue="JUnit.Test2.test2" />
+      <item itemvalue="JUnit.Test2.test4" />
+      <item itemvalue="JUnit._5_Thread_interrupted.test4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._5_Thread_interrupted.test4" />
+        <item itemvalue="JUnit.Test2.test4" />
+        <item itemvalue="JUnit.Test2.test2" />
         <item itemvalue="JUnit.Test1.filterTest" />
         <item itemvalue="JUnit.Test1.sumAdd" />
-        <item itemvalue="JUnit.Test01.testCount" />
-        <item itemvalue="JUnit.Test01.testCompare" />
-        <item itemvalue="JUnit.Test01.testJudge" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +474,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dc9d63cb-9731-4a25-bb38-5a50af83fe35" name="Default" comment="" />
+      <changelist id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="" />
       <created>1542945562550</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -653,24 +487,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test01_testJudge - 2020.06.16 at 19h 52m 09s.xml">
-      <configuration name="Test01.testJudge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_testCompare - 2020.06.18 at 14h 10m 10s.xml">
-      <configuration name="Test01.testCompare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_testCompare - 2020.06.18 at 16h 31m 54s.xml">
-      <configuration name="Test01.testCompare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_testCompare - 2020.06.18 at 16h 32m 32s.xml">
-      <configuration name="Test01.testCompare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_testCount - 2020.06.19 at 10h 13m 37s.xml">
-      <configuration name="Test01.testCount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_testCount - 2020.06.19 at 10h 15m 06s.xml">
-      <configuration name="Test01.testCount" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test01_testCount - 2020.06.19 at 10h 15m 17s.xml">
       <configuration name="Test01.testCount" configurationId="JUnit" />
     </history-entry>
@@ -683,31 +499,50 @@
     <history-entry file="Test1_filterTest - 2020.06.19 at 20h 55m 31s.xml">
       <configuration name="Test1.filterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test2_test2 - 2020.06.28 at 20h 03m 25s.xml">
+      <configuration name="Test2.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_test2 - 2020.06.28 at 20h 03m 55s.xml">
+      <configuration name="Test2.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_test2 - 2020.06.28 at 20h 04m 13s.xml">
+      <configuration name="Test2.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_test4 - 2020.06.29 at 20h 35m 49s.xml">
+      <configuration name="Test2.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_test4 - 2020.06.29 at 20h 36m 50s.xml">
+      <configuration name="Test2.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5_Thread_interrupted_test4 - 2020.06.29 at 20h 48m 37s.xml">
+      <configuration name="_5_Thread_interrupted.test4" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="22217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.51321584" side_tool="true" weight="0.24466951" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.48678413" visible="true" weight="0.2739872" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.48678413" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="DB Browser" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.069296375" side_tool="true" visible="true" weight="0.7017354" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.09434968" side_tool="true" visible="true" weight="0.4002169" />
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.50586355" weight="0.19197397" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4936034" weight="0.4989154" />
       <window_info anchor="bottom" id="Spring" order="3" sideWeight="0.49573562" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.93070364" visible="true" weight="0.7017354" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.9301706" weight="0.31127983" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.54317695" weight="0.71182793" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.81449896" weight="0.37852496" />
-      <window_info anchor="bottom" x="382" y="345" width="1155" height="358" id="Debug" order="8" sideWeight="0.90618336" weight="0.37852496" />
+      <window_info anchor="bottom" x="382" y="345" width="1155" height="358" id="Debug" order="8" sideWeight="0.9056503" visible="true" weight="0.4002169" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.72334754" weight="0.5347071" />
@@ -727,7 +562,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" visible="true" weight="0.01652452" />
       <window_info anchor="right" x="92" y="92" width="1736" height="865" id="Documentation" order="9" type="FLOATING" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.51111114" side_tool="true" visible="true" weight="0.01652452" />
-      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.07462686" />
+      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.16257995" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,62 +606,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/工厂设计模式/工厂方法模式/AudiFacyory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/工厂设计模式/简单工厂/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/工厂设计模式/工厂方法模式/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/工厂设计模式/工厂方法模式/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/工厂设计模式/简单工厂/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/模板方法设计模式/testPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/模板方法设计模式/BankTemplateMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/模板方法设计模式/PersonA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/设计模式/模板方法设计模式/PersonB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1002,48 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_2_Thread_Join.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_2_Thread_Sleep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_3_Thread_synchronized.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_3_Thread_wait_notify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Thread/TestAtomicStampRefrence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,30 +883,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Exercise/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_3_Thread_synchronized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_3_Thread_wait_notify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="43" selection-start-line="43" selection-end-line="72" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题改善.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="45" column="69" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmh/Mybenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_4_就餐问题更优.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Exercise/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Exercise/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_2_Thread_Sleep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_5_Thread_interrupted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#424#717#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#775#898#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/_2_Thread_Join.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-541">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>

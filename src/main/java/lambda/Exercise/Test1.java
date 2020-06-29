@@ -50,6 +50,7 @@ public class Test1 {
     //找出所有作家的作品的和
     @Test
     public int allAdd(Stream<article> articleStream) {
+
         return articleStream.map(e -> e.getArbum().size()).reduce(0, Integer::sum);
     }
 
