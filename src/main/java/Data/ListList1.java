@@ -3,7 +3,7 @@ package Data;
 
 import java.util.AbstractList;
 
-public class ListList1<E> extends AbstractList<E> {
+public class ListList1<E> extends AbstractList<E> implements Cloneable, java.io.Serializable {
 
 
     public static void main(String[] args) {
