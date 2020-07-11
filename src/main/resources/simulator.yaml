@@ -1,0 +1,58 @@
+# 登入服配置
+loginConfig:
+  # 登入服地址
+  host: 10.10.10.38
+  # 登入服端口
+  port: 6101
+  # 要登入的游戏服id
+  serverId: 12
+  # 账号的平台类型
+  platform: qf
+
+ # 字典目录
+dictHome: "E:/G-BL-common/trunk/table"
+
+# 平台url
+platformUrl: http://10.10.10.37:9888/
+
+# 每次执行登入操作的人数限制
+# 游戏服瞬间可以承载的登入人数是有限制的，在模拟器这边做个限制，防止大量玩家登入而导致登入失败。
+loginThreshold: 1000
+
+# 账号名称前缀
+# 账号名称由前缀和6位数字组合而成，账号名称的总长度限定为6-16位
+accountPrefix: zftest
+
+# 测试流程，可以有多个
+testFlows:
+  -
+    # 测试流程的名称
+    name: normal
+
+    # 是否启用这个测试流程
+    enabled: true
+
+    # 执行测试流程的玩家总数
+    playerTotal: 100
+
+    # 定义了一个完整的工作流程：
+    # 1. 首先执行准备动作
+    # 2. 执行特定次数的负荷动作
+    # 3. 最后执行清理动作
+    # 至此，一个完整的工作流程就执行完了。
+    workflow:
+
+      # 准备动作，可以有多个，按顺序执行
+      prepare: [platform, login,chat]
+
+      # 负荷动作的权重，根据权重来随机执行
+      workloadWeight: {basicInfo: 150, idle: 50, chat: 70}
+
+      # 负荷动作的重复次数
+      workloadTimes: 10
+
+      # 清理动作，可以有多个，按顺序执行
+      clean: [logout]
+
+    # 这个测试流程需要重复执行多少次完整的工作流程
+    workflowTimes: 100

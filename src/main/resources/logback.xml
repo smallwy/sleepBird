@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- debug 设置打印内部状态数据 -->
+<!-- scan 设置是否自动扫描配置文件中的变化，默认情况是1分钟扫描一次 -->
+<!-- scanPeriod 设置扫描的间隔时间 -->
+<!-- packagingData 是否在异常栈中附加jar文件的名称和版本信息，开启会损耗性能 -->
+<configuration debug="false" scan="true" scanPeriod="30 seconds" packagingData="true">
+
+    <!-- 安装一个默认的关闭钩子来处理停止logback和释放相关资源 -->
+    <shutdownHook class="ch.qos.logback.core.hook.DelayingShutdownHook"/>
+
+    <!-- 默认的日志格式 -->
+    <property name="ENCODER_PATTERN"
+              value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] - %msg%n"/>
+
+    <!-- 存放日志的目录，目前是放在bl-game目录下 -->
+    <property name="LOG_ROOT_PATH" value="${basedir}/logs"/>
+
+    <!-- 日志打印到标准输出 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>${ENCODER_PATTERN}</Pattern>
+        </encoder>
+    </appender>
+
+    <!-- 错误日志的目标文件 -->
+    <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_ROOT_PATH}/general/error-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>${ENCODER_PATTERN}</pattern>
+        </encoder>
+        <append>true</append>
+        <prudent>false</prudent>
+        <immediateFlush>true</immediateFlush>
+    </appender>
+
+    <appender name="ERROR_ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <discardingThreshold>0</discardingThreshold>
+        <queueSize>1024</queueSize>
+        <neverBlock>true</neverBlock>
+        <appender-ref ref="ERROR_FILE"/>
+    </appender>
+
+    <!-- 通用日志的目标文件 -->
+    <appender name="GENERAL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--<file>${LOG_ROOT_PATH}/general/general.log</file>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_ROOT_PATH}/general/general-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${ENCODER_PATTERN}</pattern>
+        </encoder>
+        <append>false</append>
+        <prudent>false</prudent>
+        <immediateFlush>true</immediateFlush>
+    </appender>
+
+    <!-- 使用异步方式写入通用日志 -->
+    <appender name="GENERAL_ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>1024</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <includeCallerData>false</includeCallerData>
+        <maxFlushTime>0</maxFlushTime>
+        <neverBlock>false</neverBlock>
+        <appender-ref ref="GENERAL_FILE"/>
+    </appender>
+
+    <!-- 玩家日志的目标文件 -->
+    <appender name="PLAYER_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--<file>${LOG_ROOT_PATH}/general/general.log</file>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_ROOT_PATH}/player/player-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${ENCODER_PATTERN}</pattern>
+        </encoder>
+        <append>false</append>
+        <prudent>false</prudent>
+        <immediateFlush>true</immediateFlush>
+    </appender>
+
+    <!-- 使用异步方式写入玩家日志 -->
+    <appender name="PLAYER_ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>1024</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <includeCallerData>false</includeCallerData>
+        <maxFlushTime>0</maxFlushTime>
+        <neverBlock>false</neverBlock>
+        <appender-ref ref="PLAYER_FILE"/>
+    </appender>
+
+    <!-- 系统日志的目标文件 -->
+    <appender name="SYSTEM_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--<file>${LOG_ROOT_PATH}/general/general.log</file>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_ROOT_PATH}/system/system-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${ENCODER_PATTERN}</pattern>
+        </encoder>
+        <append>false</append>
+        <prudent>false</prudent>
+        <immediateFlush>true</immediateFlush>
+    </appender>
+
+    <!-- 使用异步方式写入系统日志 -->
+    <appender name="SYSTEM_ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>1024</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <includeCallerData>false</includeCallerData>
+        <maxFlushTime>0</maxFlushTime>
+        <neverBlock>false</neverBlock>
+        <appender-ref ref="SYSTEM_FILE"/>
+    </appender>
+
+    <!-- netty -->
+    <logger name="io.netty" level="INFO" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <!-- spring -->
+    <logger name="org.springframework" level="INFO" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <!-- 玩家的行为状态日志 -->
+    <logger name="PLAYER" level="DEBUG" additivity="true">
+        <appender-ref ref="PLAYER_ASYNC"/>
+    </logger>
+
+    <!-- 系统的行为状态日志 -->
+    <logger name="SYSTEM" level="DEBUG" Additivity="true">
+        <appender-ref ref="SYSTEM_ASYNC"/>
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="GENERAL_ASYNC"/>
+        <appender-ref ref="ERROR_ASYNC"/>
+    </root>
+
+</configuration>
