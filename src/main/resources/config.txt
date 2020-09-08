@@ -1,0 +1,11 @@
+float[]		&   	float[] toFloatArray
+posList		&   	List<Pos> toPosList
+arrayParseInt	&   	int parseArray2Int
+ListInt		&   	int[] toIntArray
+ListFloat	    	&	float[] toFloatArray
+ListString	    	&	String[] toStrArray
+LongItems	&	List<ItemPair<Integer,Long>> str2LongItemPair
+IntItems		&   	List<ItemPair<Integer, Integer>> str2IntItemPair
+ListInt[]		&	List<int[]> toIntArrayList
+ListInt[]		&   	List<int[]> str2IntArrayList
+IntList		&	List<Integer> toIntList

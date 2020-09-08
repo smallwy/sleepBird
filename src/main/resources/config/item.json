@@ -1,0 +1,11 @@
+{
+	"fields":{"id":"int","name":"String","type":"int","subType":"int","action":"int"},
+	"array":[ 
+		{"id":1000,"name":"大还丹","type":1,"subType":1,"action":3},
+		{"id":1001,"name":"治疗药","type":2,"subType":2,"action":4},
+		{"id":1002,"name":"大明珠","type":3,"subType":3,"action":5},
+		{"id":1000,"name":"大还丹2","type":1,"subType":1,"action":3},
+		{"id":1001,"name":"治疗药1","type":2,"subType":1,"action":3},
+		{"id":1002,"name":"大明珠1","type":3,"subType":3,"action":5}
+	]
+}
