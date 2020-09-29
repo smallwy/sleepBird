@@ -301,7 +301,7 @@ public class Json2BeanUtil2 {
 
 		StringBuilder builderHead = new StringBuilder();
 		builderHead.append("package " + packageName + ";\r\n");
-	/*	builderHead.append("com.gameart.config.*;\r\n");*/
+		builderHead.append("import gameart.config.utils.SimpleConfig;\r\n");
 		if (hasParseMethod) {
 			if (haveListAndMap(columnName)) {
 				builderHead.append("import java.util.*;\r\n");

@@ -13,7 +13,11 @@
 
   <context:property-placeholder location="classpath:*.properties" file-encoding="UTF-8"/>
 
-  <context:component-scan base-package="com.gameart"/>
+  <context:component-scan base-package="gameart">
+
+    <context:include-filter type="annotation"
+                            expression="gameart.annotation.TypeManagered"/>
+  </context:component-scan>
 
   <task:scheduler id="spring-scheduler" pool-size="3"/>
   <task:executor id="spring-executor" pool-size="1-3" queue-capacity="100" keep-alive="120"/>

@@ -1,4 +1,5 @@
 package gameart.bean;
+import gameart.config.utils.SimpleConfig;
 
 
 /** 

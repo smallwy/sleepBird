@@ -33,10 +33,8 @@ public  class Gof23之单例模式 {
 
 
       /*------------------------懒汉式式创建实例对象-----------*/
-
+    //缺点 存在线程安全问题
     private static Gof23之单例模式 lanhanshi = null;
-
-
     public static synchronized Gof23之单例模式 getLanhanshi() {
         if (lanhanshi == null) {
             lanhanshi = new Gof23之单例模式();
@@ -67,7 +65,8 @@ public  class Gof23之单例模式 {
     }
 
   /*------------------------holder创建单例----------*/
-
+  //比较推荐用holder方式创建单例 首先holder是静态的 类加载的时候会加载sigton引用  第一次主动调用getHolderSington()
+    //就会去初始化 new Gof23之单例模式()对象
   /** 使用内部类创建对象*/
   private static  class holder {
       private static Gof23之单例模式 sigton = new Gof23之单例模式();
