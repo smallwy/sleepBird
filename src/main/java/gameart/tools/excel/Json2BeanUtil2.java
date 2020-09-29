@@ -9,11 +9,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @Author loong
- * @Data 2019/2/28 10:50
- * @Version 1.0
- */
 public class Json2BeanUtil2 {
 	public static class fieldData {
 		private String name;

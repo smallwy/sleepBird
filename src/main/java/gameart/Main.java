@@ -2,7 +2,6 @@ package gameart;
 
 
 import gameart.manager.TypeManager;
-import gameart.bean.good;
 import gameart.config.ConfigManager;
 import gameart.tools.excel.Excel2JsonAndJavaUtil;
 import gameart.tools.proto.MakePackeCodeUtils;
@@ -12,7 +11,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
 	public static void mainxx(String[] args) throws Exception {
 		int type = Integer.parseInt(args[0]);
-
 		String args1 = args[1];
 		String args2 = args[2];
 		String args3 = null;
