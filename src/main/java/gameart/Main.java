@@ -2,6 +2,7 @@ package gameart;
 
 
 import gameart.manager.TypeManager;
+import gameart.bean.good;
 import gameart.config.ConfigManager;
 import gameart.tools.excel.Excel2JsonAndJavaUtil;
 import gameart.tools.proto.MakePackeCodeUtils;

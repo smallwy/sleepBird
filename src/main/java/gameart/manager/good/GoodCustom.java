@@ -1,6 +1,7 @@
 package gameart.manager.good;
 
 
+import gameart.bean.good;
 import gameart.config.ConfigManager;
 import gameart.config.utils.Config;
 import gameart.config.utils.IConfig;
