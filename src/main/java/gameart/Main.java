@@ -1,11 +1,12 @@
 package gameart;
 
 
-import gameart.manager.TypeManager;
 import gameart.bean.good;
 import gameart.config.ConfigManager;
+import gameart.manager.TypeManager;
 import gameart.tools.excel.Excel2JsonAndJavaUtil;
 import gameart.tools.proto.MakePackeCodeUtils;
+import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -36,6 +37,14 @@ public class Main {
 		ConfigManager.getInstance().init();
 		good good=ConfigManager.getConfig(good.class,1000);
 		System.out.println(good.getName());
+		Thread.sleep(1000000000);
 //		mainxx(new String[]{"3", "ChapterProto.proto", "F:/project/server/Kiseki/game-all/", "F:/project/server/Kiseki/conf/proto/game/"});
+	}
+
+
+	@Test
+	public void test(){
+		good good=ConfigManager.getConfig(good.class,1000);
+		System.out.println(good.getType());
 	}
 }

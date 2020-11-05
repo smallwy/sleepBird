@@ -1,11 +1,11 @@
 {
 	"fields":{"id":"int","name":"String","type":"int","subType":"int","action":"int","effectIds":"int[]","stageNumWeight":"string"},
 	"array":[ 
-		{"id":1000,"name":"铠甲头部","type":1,"subType":1,"action":3,"effectIds":[1,2],"stageNumWeight":"1|10,1|20,1|30"},
-		{"id":1001,"name":"铠甲尾部","type":2,"subType":2,"action":4,"effectIds":[1,2],"stageNumWeight":"3|1,5|2,7|3"},
-		{"id":1002,"name":"铠甲上身","type":3,"subType":3,"action":5,"effectIds":[1,2],"stageNumWeight":"4|1,6|2,8|3"},
-		{"id":1000,"name":"铠甲下身","type":1,"subType":1,"action":3,"effectIds":[1,2],"stageNumWeight":"5|1,7|2,9|3"},
-		{"id":1001,"name":"铠甲头部","type":2,"subType":1,"action":3,"effectIds":[1,2],"stageNumWeight":"3|1,5|2,7|3"},
-		{"id":1002,"name":"铠甲头部","type":3,"subType":3,"action":5,"effectIds":[1,2],"stageNumWeight":"4|1,5|2,6|3"}
+		{"id":1000,"name":"铠甲头部","type":5,"subType":1,"action":3,"effectIds":[1,2],"stageNumWeight":"1|10,1|20,1|30"},
+		{"id":1001,"name":"铠甲尾部","type":7,"subType":2,"action":4,"effectIds":[1,2],"stageNumWeight":"3|1,5|2,7|3"},
+		{"id":1002,"name":"铠甲上身","type":11,"subType":3,"action":5,"effectIds":[1,2],"stageNumWeight":"4|1,6|2,8|3"},
+		{"id":1001,"name":"铠甲下身","type":12,"subType":1,"action":3,"effectIds":[1,2],"stageNumWeight":"5|1,7|2,9|3"},
+		{"id":1002,"name":"铠甲头部","type":2,"subType":1,"action":3,"effectIds":[1,2],"stageNumWeight":"3|1,5|2,7|3"},
+		{"id":100999,"name":"铠甲头部","type":3,"subType":3,"action":5,"effectIds":[1,2],"stageNumWeight":"4|1,5|2,6|3"}
 	]
 }
