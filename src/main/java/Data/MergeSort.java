@@ -39,7 +39,7 @@ public class MergeSort {
     }
 
     private void merge(int begin, int mid, int end) {
-        System.out.println("begin++++"+begin+"---mid++++"+mid+"---end++++"+end);
+        System.out.println("begin++++" + begin + "---mid++++" + mid + "---end++++" + end);
         int li = 0, le = mid - begin;
         int ri = mid, re = end;
         int ai = begin;

@@ -1,42 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__isorelax_isorelax_20020414.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_0_FCS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__msv_msv_20020414.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__relaxngDatatype_relaxngDatatype_20020414.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__saxpath_saxpath_1_0_FCS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/ai/AIAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/ai/AICondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/ai/AIIsBirthday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/ai/AIIsGood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/ai/AISelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/ai/AISequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/aiTree/AIContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/aiTree/AIExcutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/aiTree/AILeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/aiTree/AITreeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/aiTree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/config/aiTree.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/constant/Contsant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rookiex/xml/AIFactory.java" afterDir="false" />
+    <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="聊天的设计">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JVM/Chapter01/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepBird.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sleepBird.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameart/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameart/bean/good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameart/bean/good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gameart/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameart/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gameart/tools/source/good.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameart/tools/source/good.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/good.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/good.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/ThreadHandleer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/ThreadHandleer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/good.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/good.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gameart/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gameart/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gameart/config/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gameart/config/ConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sleepBird.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/ThreadHandleer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/ThreadHandleer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,70 +29,48 @@
       <FILTER>Thread.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/AIContext.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Data/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="84">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/AIExcutor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/proto/MakePackeCodeUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-518">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="274">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/AILeaf.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameart/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/AITreeFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/config/aiTree.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/ai/AIAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="385">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,31 +79,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/constant/Contsant.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/excel/Excel2JsonAndJavaUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="385">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/excel/Operate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/excel/ExcelUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/xml/AIFactory.java">
+        <entry file="jar://$PROJECT_DIR$/../Program Files (x86)/Java/jdk1.8.0_261/src.zip!/org/omg/CORBA/DynAnyPackage/InvalidValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="74">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.13/poi-ooxml-3.13.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbook.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="222">
+              <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/classes/JVM/_1_JVM_类的加载.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#551#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/moster/app/Launcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/moster/infras/network/handler/SimpleMessageCodec.java" />
         <option value="$PROJECT_DIR$/src/main/java/moster/game/shop/ShopDecision.java" />
         <option value="$PROJECT_DIR$/src/main/java/moster/game/shop/ShopSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/moster/game/gm/GmSystem.java" />
@@ -218,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/main/java/AI/AbstractAi.java" />
         <option value="$PROJECT_DIR$/src/main/java/AI/AIState.java" />
         <option value="$PROJECT_DIR$/src/main/java/AI/AbstractAI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/ThreadHandleer.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/nio_client同步阻塞.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/nio_同步阻塞.java" />
         <option value="$PROJECT_DIR$/src/main/java/gameart/ConfigManager.java" />
@@ -254,6 +243,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/rookiex/xml/AIFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/rookiex/config/aiTree.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/ThreadHandleer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JVM/Chapter01/StackTest.java" />
       </list>
     </option>
   </component>
@@ -270,6 +262,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Bird" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Bird" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -290,7 +287,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,7 +318,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rookiex" type="462c0819:PsiDirectoryNode" />
+              <item name="gameart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -330,8 +326,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rookiex" type="462c0819:PsiDirectoryNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
+              <item name="gameart" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -339,8 +335,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rookiex" type="462c0819:PsiDirectoryNode" />
-              <item name="aiTree" type="462c0819:PsiDirectoryNode" />
+              <item name="gameart" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="excel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -348,8 +345,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rookiex" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="gameart" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -357,17 +355,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rookiex" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rookiex" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="gameart" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -375,14 +365,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -400,16 +382,36 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="JVM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="JVM" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8.0_261 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,7 +420,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -628,6 +630,7 @@
       <workItem from="1601363164922" duration="9401000" />
       <workItem from="1601432598402" duration="9037000" />
       <workItem from="1601458358168" duration="1341000" />
+      <workItem from="1604568294743" duration="3885000" />
     </task>
     <task id="LOCAL-00001" summary="聊天的设计">
       <created>1598351569127</created>
@@ -672,7 +675,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78238000" />
+    <option name="totallyTimeSpent" value="82123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -681,19 +684,19 @@
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.51321584" side_tool="true" weight="0.24466951" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.48678413" visible="true" weight="0.2743837" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.48678413" visible="true" weight="0.21114683" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="DB Browser" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.093247585" side_tool="true" weight="0.074745186" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.09485531" side_tool="true" visible="true" weight="0.79275197" />
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.5042644" weight="0.14269535" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4936034" weight="0.61381656" />
       <window_info anchor="bottom" id="Spring" order="3" sideWeight="0.49573562" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.9067524" weight="0.04303511" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.9051447" visible="true" weight="0.79275197" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.5426439" weight="0.612684" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.81449896" weight="0.37852496" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.81449896" weight="0.30690828" />
       <window_info anchor="bottom" x="382" y="345" width="1155" height="358" id="Debug" order="8" sideWeight="0.90245205" weight="0.18573046" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -716,27 +719,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" visible="true" weight="0.01652452" />
       <window_info anchor="right" x="92" y="92" width="1736" height="865" id="Documentation" order="9" type="FLOATING" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.51111114" side_tool="true" visible="true" weight="0.01652452" />
-      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.042872455" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.020364417" />
     </layout>
     <layout-to-restore>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.51321584" side_tool="true" weight="0.24466951" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.48678413" visible="true" weight="0.24008575" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.48678413" visible="true" weight="0.22347267" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="DB Browser" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.093247585" side_tool="true" visible="true" weight="0.074745186" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.5042644" weight="0.6030369" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4936034" weight="0.4989154" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.093247585" side_tool="true" weight="0.074745186" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.5042644" weight="0.14269535" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4936034" weight="0.61381656" />
       <window_info anchor="bottom" id="Spring" order="3" sideWeight="0.49573562" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.9067524" visible="true" weight="0.074745186" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.9067524" visible="true" weight="0.04303511" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.5426439" weight="0.31127983" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.81449896" weight="0.37852496" />
-      <window_info anchor="bottom" x="382" y="345" width="1155" height="358" id="Debug" order="8" sideWeight="0.90245205" weight="0.30368763" />
+      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.5426439" weight="0.612684" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.81449896" weight="0.30690828" />
+      <window_info anchor="bottom" x="382" y="345" width="1155" height="358" id="Debug" order="8" sideWeight="0.90245205" weight="0.18573046" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.72334754" weight="0.5347071" />
@@ -758,7 +761,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" visible="true" weight="0.01652452" />
       <window_info anchor="right" x="92" y="92" width="1736" height="865" id="Documentation" order="9" type="FLOATING" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.51111114" side_tool="true" visible="true" weight="0.01652452" />
-      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.05466238" />
+      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.020364417" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,158 +919,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/excel/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/manager/TypeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2553">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/CommonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/ItemPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/Pos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/annotation/TypeManagered.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/Json2BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files (x86)/Java/jdk1.8.0_261/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.54/fastjson-1.2.54.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files (x86)/Java/jdk1.8.0_261/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="164" column="31" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
-          <folding>
-            <element signature="e#5711#5712#0" expanded="true" />
-            <element signature="e#5749#5750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/ConfParseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/ConfigUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/manager/skill/SkillBaseCustom.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/manager/skill/SkillCfg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/bean/item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/manager/good/GoodCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files (x86)/Java/jdk1.8.0_261/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12321">
-          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/IConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/AbstractConfigCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -1086,26 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/excel/Excel2JsonAndJavaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/excel/Operate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/good.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gameart/config/utils/SimpleConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -1161,16 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,21 +1051,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/AIContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
+        <state relative-caret-position="370">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/AIExcutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-518">
+        <state relative-caret-position="259">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/AILeaf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
+        <state relative-caret-position="74">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
@@ -1263,30 +1077,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/Node.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="1184">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/xml/AIFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/constant/Contsant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="185">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/ai/AIAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
+        <state relative-caret-position="222">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1297,17 +1114,201 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/config/aiTree.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/xml/AIFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rookiex/aiTree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+        <state relative-caret-position="130">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/nio_client同步阻塞.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/nio_同步阻塞.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/ThreadHandleer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/DataUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/DubboSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1761">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/HeadSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2923">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/LinkListT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/ListList1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/proto/DateType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-554">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/https与http/appTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JVM/Chapter01/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/JVM/Chapter01/StackTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#262#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/good.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/JVM/_1_JVM_类的加载.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/proto/MakePackeCodeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/excel/Excel2JsonAndJavaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.13/poi-ooxml-3.13.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/excel/Operate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameart/tools/excel/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files (x86)/Java/jdk1.8.0_261/src.zip!/org/omg/CORBA/DynAnyPackage/InvalidValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1389,7 +1390,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.54</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -36,7 +36,5 @@ public class ThreadHandleer implements Runnable {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 }
