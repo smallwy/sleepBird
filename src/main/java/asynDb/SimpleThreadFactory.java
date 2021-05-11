@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;

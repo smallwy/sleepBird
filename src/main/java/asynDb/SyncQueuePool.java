@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;

@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 public class TestEntityManager implements Synchronizer<TestEntity> {
     @Override

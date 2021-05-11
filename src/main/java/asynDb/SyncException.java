@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 public class SyncException extends RuntimeException{
 

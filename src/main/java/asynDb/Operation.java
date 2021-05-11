@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 import com.google.common.collect.Sets;
 

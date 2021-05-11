@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 import org.springframework.context.ApplicationContext;
 

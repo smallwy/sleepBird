@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 import java.lang.annotation.*;
 

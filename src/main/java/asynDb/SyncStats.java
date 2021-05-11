@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 public class SyncStats {
     private int wating;

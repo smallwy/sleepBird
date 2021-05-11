@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 public interface ISyncStrategy {
     int getSleepTime(int waitTime);

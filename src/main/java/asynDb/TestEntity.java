@@ -1,4 +1,4 @@
-package asyndb;
+package asynDb;
 
 @Persistent(syncClass = TestEntityManager.class)
 public class TestEntity extends AsynDBEntity {

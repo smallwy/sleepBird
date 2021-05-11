@@ -1,8 +1,8 @@
-package asyndb;
+package asynDb;
 
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
-public class AsynDBEntity {
+public class AsynDBEntity  {
     private static final AtomicReferenceFieldUpdater<AsynDBEntity, AsynDBState> stateUpdater = AtomicReferenceFieldUpdater.newUpdater(AsynDBEntity.class, AsynDBState.class, "state");
     private transient AsynDBState state = AsynDBState.NORMAL;
     private transient Synchronizer synchronizer;
