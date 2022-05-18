@@ -26,4 +26,37 @@ public class SelectSort {
             arrays[end] = temp;
         }
     }
+
+    //二分查找
+    public void SelectTest2() {
+        for (int end = arrays.length - 1; end > 0; end--) {
+            int maxIndex = 0;
+            int start = 0;
+            int end1 = end;
+            while (start <= end1) {
+                int mid = (start + end1) / 2;
+                if (arrays[mid] > arrays[maxIndex]) {
+                    maxIndex = mid;
+                }
+                if (arrays[mid] > arrays[end]) {
+                    start = mid + 1;
+                } else {
+                    end1 = mid - 1;
+                }
+            }
+            int temp = arrays[maxIndex];
+            arrays[maxIndex] = arrays[end];
+            arrays[end] = temp;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
 }
