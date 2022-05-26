@@ -1,6 +1,7 @@
 package Thread;
 
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
@@ -80,5 +81,15 @@ public class ThreadPoolTest {
                 System.out.println("timer1的执行任务");
             }
         }, 2000, 3000);*/
+
+        Future<?> submit = scheduledThreadPoolExecutor.submit(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        });
+
+        submit.get();
     }/**/
+
 }
