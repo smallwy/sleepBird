@@ -30,4 +30,10 @@ public class IndexController {
             }
         }
     }
+
+    @RequestMapping("/test_cluster")
+    public void testCluster() {
+        stringRedisTemplate.opsForValue().set("hello", "world");
+        System.out.println(stringRedisTemplate.opsForValue().get("hello"));
+    }
 }

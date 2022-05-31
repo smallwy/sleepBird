@@ -1,13 +1,13 @@
 server:
-  port: 8090
+  port: 8070
 
 spring:
   redis:
     database: 0
+    password: stone
     timeout: 3000
-    sentinel:
-      master: mymaster
-      nodes: 120.78.219.38:26379,120.78.219.38:26380,120.78.219.38:26381
+    cluster:
+      nodes: 120.78.219.38:8001,120.78.219.38:8002,120.78.219.38:8003,120.78.219.38:8004,120.78.219.38:8005,120.78.219.38:8006
       lettuce:
         pool:
           max-idle: 50
