@@ -35,12 +35,9 @@ public class ZkClientTest {
     @Test
     public void createTest() throws InterruptedException, KeeperException {
         String path = zooKeeper.create(ZK_NODE, "data".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
-        Watcher watcher = new Watcher() {
-            @Override
-            public void process(WatchedEvent event) {
-                if (event.getType() == Event.EventType.NodeDataChanged && event.getPath() != null && event.getPath().equals(ZK_NODE)) {
-                    log.info("change path: {}", event.getPath());
-                }
+        Watcher watcher = event -> {
+            if (event.getType() == Watcher.Event.EventType.NodeDataChanged && event.getPath() != null && event.getPath().equals(ZK_NODE)) {
+                log.info("change path: {}", event.getPath());
             }
         };
 

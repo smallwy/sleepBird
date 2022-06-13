@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/product-center/product-center.iml" filepath="$PROJECT_DIR$/product-center/product-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/redisDemo/redisDemo.iml" filepath="$PROJECT_DIR$/redisDemo/redisDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sleepBird.iml" filepath="$PROJECT_DIR$/sleepBird.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-center/user-center.iml" filepath="$PROJECT_DIR$/user-center/user-center.iml" />
     </modules>
   </component>
 </project>
