@@ -35,5 +35,7 @@ public class IndexController {
     public void testCluster() {
         stringRedisTemplate.opsForValue().set("hello", "world");
         System.out.println(stringRedisTemplate.opsForValue().get("hello"));
+
     }
+
 }
