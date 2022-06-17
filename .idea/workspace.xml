@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/rabbitmq_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/rabbitmq_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/helloWorld/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/helloWorld/Consumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/helloWorld/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/utils/RabbitConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/utils/RabbitUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepBird.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sleepBird.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jvm/day3/JOLSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/day3/JOLSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/day3/JOLSample$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/day3/JOLSample$A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/day3/JOLSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/day3/JOLSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zk/ZkClientTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zk/ZkClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zk/ZkClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/helloWorld/Consumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/helloWorld/Consumer1.java" afterDir="false" />
     </list>
     <list id="36c1919a-2578-4d59-9b12-d7e705a8659f" name="No Changelist" comment="zk学习" />
     <option name="SHOW_DIALOG" value="false" />
@@ -626,7 +603,7 @@
       <workItem from="1654583134132" duration="37232000" />
       <workItem from="1655187151791" duration="650000" />
       <workItem from="1655189508411" duration="2065000" />
-      <workItem from="1655429939553" duration="8426000" />
+      <workItem from="1655429939553" duration="9268000" />
     </task>
     <task id="LOCAL-00001" summary="聊天的设计">
       <created>1598351569127</created>
@@ -705,7 +682,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655123290444</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="mq学习">
+      <created>1655458044667</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655458044667</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -866,7 +850,8 @@
     <MESSAGE value="redis主从复制和哨兵机制" />
     <MESSAGE value="No Changelist" />
     <MESSAGE value="zk学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="zk学习" />
+    <MESSAGE value="mq学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="mq学习" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
