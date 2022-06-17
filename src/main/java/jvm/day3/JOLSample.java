@@ -3,7 +3,17 @@ package jvm.day3;
 import org.openjdk.jol.info.ClassLayout;
 
 public class JOLSample {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+
+        Object object=new Object();
+        System.out.println(ClassLayout.parseInstance(object).toPrintable());
+        Thread.sleep(5000);
+
+        synchronized (object){
+            System.out.println(ClassLayout.parseInstance(object).toPrintable());
+        }
+
+/*
         ClassLayout object = ClassLayout.parseInstance(new Object());
         System.out.println(object.toPrintable());
 
@@ -14,7 +24,7 @@ public class JOLSample {
         System.out.println(arry1.toPrintable());
 
         ClassLayout a = ClassLayout.parseInstance(new A());
-        System.out.println(a.toPrintable());
+        System.out.println(a.toPrintable());*/
     }
 
     public static class A {
@@ -22,8 +32,6 @@ public class JOLSample {
         String name;  //    4   java.lang.String A.name
         byte b;    //   1               byte A.b
         Object o;  //   4   java.lang.Object A.o  存的地址指针
-    }
-
-    //指针压缩
+    }//指针压缩
 
 }

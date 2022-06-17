@@ -4,7 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.saturn</groupId>
     <artifactId>Bird</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>rabbitmq</module>
+    </modules>
 
     <dependencies>
         <dependency>

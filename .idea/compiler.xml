@@ -9,13 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="user-center" />
         <module name="product-center" />
-        <module name="sleepBird" />
+        <module name="rabbitmq" />
         <module name="redisDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="demo" target="1.8" />
       <module name="product-center" target="1.8" />
+      <module name="rabbitmq" target="1.7" />
       <module name="redis" target="1.5" />
       <module name="redisDemo" target="1.8" />
       <module name="sleepBird" target="1.8" />
