@@ -14,7 +14,7 @@ public class RabbitUtils {
         connectionFactory.setPort(5672);
         connectionFactory.setUsername("stone");
         connectionFactory.setPassword("stone123");
-        connectionFactory.setVirtualHost("stone");
+        connectionFactory.setVirtualHost("/stone");
         return connectionFactory.newConnection();
     }
 }
