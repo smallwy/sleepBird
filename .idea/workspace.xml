@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/pubsub/Consumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/pubsub/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/pubsub/Publish.java" afterDir="false" />
+    <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="mq学习">
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/routing/Consumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/routing/Consumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/routing/Publish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/utils/RabbitConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/utils/RabbitConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/utils/RabbitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/utils/RabbitUtils.java" afterDir="false" />
     </list>
     <list id="36c1919a-2578-4d59-9b12-d7e705a8659f" name="No Changelist" comment="zk学习" />
     <option name="SHOW_DIALOG" value="false" />
@@ -270,7 +269,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_261" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zookpeer/zookeeper-branch-3.5.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitmq/src/main/java/routing" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -291,11 +290,11 @@
       <recent name="Data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sleepBird\rabbitmq\src\main\java\routing" />
       <recent name="D:\sleepBird\redisDemo\src\main\resources" />
       <recent name="C:\project\src\main\java" />
       <recent name="C:\project\src\main\java\gameart\manager" />
       <recent name="C:\project\src\main\java\gameart\tools\source" />
-      <recent name="C:\project\src\main\java\gameart" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\sleepBird\redis\src\main\java\com\example\redis" />
@@ -310,7 +309,7 @@
       <recent name="Thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Publish">
+  <component name="RunManager" selected="Application.Publish (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -332,12 +331,12 @@
       </method>
     </configuration>
     <configuration name="Consumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloWorld.Consumer1" />
+      <option name="MAIN_CLASS_NAME" value="routing.Consumer1" />
       <module name="rabbitmq" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helloWorld.*" />
+          <option name="PATTERN" value="routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,13 +358,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloWorld.Producer" />
+    <configuration name="Publish (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="routing.Publish" />
       <module name="rabbitmq" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helloWorld.*" />
+          <option name="PATTERN" value="routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -504,8 +503,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Producer" />
-      <item itemvalue="Application.Consumer1" />
       <item itemvalue="Spring Boot.product-2" />
       <item itemvalue="Spring Boot.product-1" />
       <item itemvalue="Spring Boot.RedisApplication" />
@@ -516,14 +513,16 @@
       <item itemvalue="Application.Publish" />
       <item itemvalue="Application.Consumer1 (1)" />
       <item itemvalue="Application.Consumer2" />
+      <item itemvalue="Application.Publish (1)" />
+      <item itemvalue="Application.Consumer1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Publish (1)" />
+        <item itemvalue="Application.Consumer1" />
         <item itemvalue="Application.Publish" />
         <item itemvalue="Application.Consumer2" />
         <item itemvalue="Application.Consumer1 (1)" />
-        <item itemvalue="Application.Producer" />
-        <item itemvalue="Application.Consumer1" />
       </list>
     </recent_temporary>
   </component>
@@ -608,7 +607,7 @@
       <workItem from="1655187151791" duration="650000" />
       <workItem from="1655189508411" duration="2065000" />
       <workItem from="1655429939553" duration="11867000" />
-      <workItem from="1655691099827" duration="9470000" />
+      <workItem from="1655691099827" duration="13151000" />
     </task>
     <task id="LOCAL-00001" summary="聊天的设计">
       <created>1598351569127</created>
@@ -701,7 +700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655458990078</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="mq学习">
+      <created>1655718375575</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655718375575</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">

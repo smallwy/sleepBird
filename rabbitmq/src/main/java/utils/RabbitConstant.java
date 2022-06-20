@@ -9,5 +9,7 @@ public class RabbitConstant {
     public static final String QUEUE_WEIBO = "queueWeibo"; //微博队列
 
     public static final String EXCHANGE_ROUTING = "exchange_routing"; //交换机
+    public static final String QUEUE_WUHAN = "queueWuhan"; //武汉队列
+    public static final String QUEUE_GUANGZHOU = "queueGuangzhou"; //广州队列
 
 }
