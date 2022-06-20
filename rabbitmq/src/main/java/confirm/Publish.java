@@ -60,6 +60,8 @@ public class Publish {
             String value = entry.getValue();
             channel.basicPublish(RabbitConstant.EXCHANGE_TOPIC, key, null, value.getBytes());
         }
+
+        //如果关闭 就没法接受监听回调
       /*  channel.close();
         connection.close();*/
     }
