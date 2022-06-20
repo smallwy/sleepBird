@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="mq学习">
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/topic/Consumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/topic/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/topic/Publish.java" afterDir="false" />
+    <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/confirm/Consumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/confirm/Consumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/confirm/Publish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/utils/RabbitConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/utils/RabbitConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/topic/Consumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/topic/Consumer2.java" afterDir="false" />
     </list>
     <list id="36c1919a-2578-4d59-9b12-d7e705a8659f" name="No Changelist" comment="zk学习" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +269,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_261" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitmq/src/main/java/topic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitmq/src/main/java/confirm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -290,11 +290,11 @@
       <recent name="Data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sleepBird\rabbitmq\src\main\java\confirm" />
       <recent name="D:\sleepBird\rabbitmq\src\main\java\topic" />
       <recent name="D:\sleepBird\rabbitmq\src\main\java\routing" />
       <recent name="D:\sleepBird\redisDemo\src\main\resources" />
       <recent name="C:\project\src\main\java" />
-      <recent name="C:\project\src\main\java\gameart\manager" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\sleepBird\redis\src\main\java\com\example\redis" />
@@ -309,48 +309,48 @@
       <recent name="Thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Publish (2)">
+  <component name="RunManager" selected="Application.Publish">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Consumer1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="topic.Consumer1" />
+    <configuration name="Consumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="confirm.Consumer1" />
+      <module name="rabbitmq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="confirm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="confirm.Consumer2" />
+      <module name="rabbitmq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="confirm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="topic.Consumer2" />
       <module name="rabbitmq" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="topic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="routing.Consumer1" />
-      <module name="rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="routing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Publish (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="routing.Publish" />
-      <module name="rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,12 +373,12 @@
       </method>
     </configuration>
     <configuration name="Publish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pubsub.Publish" />
+      <option name="MAIN_CLASS_NAME" value="confirm.Publish" />
       <module name="rabbitmq" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pubsub.*" />
+          <option name="PATTERN" value="confirm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -510,19 +510,19 @@
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.UserCenterApplication" />
       <item itemvalue="Spring Boot.ProductCenterApplication" />
-      <item itemvalue="Application.Publish" />
-      <item itemvalue="Application.Publish (1)" />
-      <item itemvalue="Application.Consumer1" />
-      <item itemvalue="Application.Consumer1 (2)" />
       <item itemvalue="Application.Publish (2)" />
+      <item itemvalue="Application.Consumer2" />
+      <item itemvalue="Application.Publish" />
+      <item itemvalue="Application.Consumer1" />
+      <item itemvalue="Application.Consumer2 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Publish (2)" />
-        <item itemvalue="Application.Consumer1 (2)" />
-        <item itemvalue="Application.Publish (1)" />
-        <item itemvalue="Application.Consumer1" />
         <item itemvalue="Application.Publish" />
+        <item itemvalue="Application.Consumer2 (1)" />
+        <item itemvalue="Application.Consumer1" />
+        <item itemvalue="Application.Publish (2)" />
+        <item itemvalue="Application.Consumer2" />
       </list>
     </recent_temporary>
   </component>
@@ -607,7 +607,7 @@
       <workItem from="1655187151791" duration="650000" />
       <workItem from="1655189508411" duration="2065000" />
       <workItem from="1655429939553" duration="11867000" />
-      <workItem from="1655691099827" duration="13584000" />
+      <workItem from="1655691099827" duration="15211000" />
     </task>
     <task id="LOCAL-00001" summary="聊天的设计">
       <created>1598351569127</created>
@@ -714,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655726884536</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="mq学习">
+      <created>1655727349611</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655727349611</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">

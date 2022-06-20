@@ -1,4 +1,4 @@
-package topic;
+package confirm;
 
 import com.rabbitmq.client.*;
 import utils.RabbitConstant;
