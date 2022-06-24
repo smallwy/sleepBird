@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 106.55.227.38
+    port: 5672
+    username: stone
+    password: stone123
+    virtual-host: /stone
