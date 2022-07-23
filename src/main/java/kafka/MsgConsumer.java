@@ -19,8 +19,8 @@ public class MsgConsumer {
 
         prop.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "106.55.227.38:9092,106.55.227.38:9093,106.55.227.38:9094");
         prop.put(ConsumerConfig.GROUP_ID_CONFIG, CONSUMER_GROUP_NAME);
-        prop.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, "true");
-        prop.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, "1000");
+        prop.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, "false");
+        prop.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, "10");
         prop.put(ConsumerConfig.HEARTBEAT_INTERVAL_MS_CONFIG, 1000);
         prop.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, 10000);
         prop.put(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, 500);
@@ -33,13 +33,24 @@ public class MsgConsumer {
         consumer.subscribe(Arrays.asList(Topic));
       /*  consumer.assign();*/
 
-        while (true){
+        while (true) {
             ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(1000));
             for (ConsumerRecord<String, String> record : records) {
-                System.out.println("收到的消息 partition"+record.partition()+ "----key" +record.key()+ "----value"+record.value());
+                System.out.println("收到的消息 partition" + record.partition() + "----key" + record.key() + "----value" + record.value());
             }
-            if(records.count()>1){
+            if (records.count() > 1) {
+                //手动提交  同步提交
+                consumer.commitAsync();
 
+                //手动提交 异步提交
+               /* consumer.commitAsync(new OffsetCommitCallback() {
+                    @Override
+                    public void onComplete(Map<TopicPartition, OffsetAndMetadata> offsets, Exception exception) {
+                        if (exception != null) {
+                            System.out.println(exception);
+                        }
+                    }
+                });*/
             }
         }
     }

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/MsgConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/KafkaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/KafkaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/MsgConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/MsgConsumer.java" afterDir="false" />
     </list>
     <list id="36c1919a-2578-4d59-9b12-d7e705a8659f" name="No Changelist" comment="zk学习" />
     <option name="SHOW_DIALOG" value="false" />
@@ -309,7 +308,7 @@
       <recent name="Thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MsgConsumer">
+  <component name="RunManager" selected="Application.KafkaTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -632,7 +631,7 @@
       <workItem from="1657007631505" duration="4782000" />
       <workItem from="1657263269467" duration="1258000" />
       <workItem from="1658109462128" duration="7856000" />
-      <workItem from="1658481629189" duration="14070000" />
+      <workItem from="1658481629189" duration="16347000" />
     </task>
     <task id="LOCAL-00001" summary="聊天的设计">
       <created>1598351569127</created>
@@ -802,7 +801,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658547938330</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="kafka">
+      <created>1658556888711</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658556888711</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
