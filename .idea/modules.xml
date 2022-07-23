@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo/SbRabbit.iml" filepath="$PROJECT_DIR$/demo/SbRabbit.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-springboot/consumer-springboot.iml" filepath="$PROJECT_DIR$/consumer-springboot/consumer-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sbRabbit/demo.iml" filepath="$PROJECT_DIR$/sbRabbit/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-center/product-center.iml" filepath="$PROJECT_DIR$/product-center/product-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/redisDemo/redisDemo.iml" filepath="$PROJECT_DIR$/redisDemo/redisDemo.iml" />
