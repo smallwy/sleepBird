@@ -4,6 +4,7 @@ import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.time.Duration;
@@ -30,8 +31,27 @@ public class MsgConsumer {
 
         KafkaConsumer<String, String> consumer= new KafkaConsumer<>(prop);
 
-        consumer.subscribe(Arrays.asList(Topic));
-      /*  consumer.assign();*/
+        //consumer.subscribe(Arrays.asList(Topic));
+        //指定分区消费
+        consumer.assign(Arrays.asList(new TopicPartition(Topic,0)));
+        /*
+        //指定分区消费 并且从头开始消费
+        consumer.assign(Arrays.asList(new TopicPartition(Topic,0)));
+        consumer.seekToBeginning(Arrays.asList(new TopicPartition(Topic,0)));
+
+        //指定offset消费
+        consumer.assign(Arrays.asList(new TopicPartition(Topic,0)));
+        consumer.seek(new TopicPartition(Topic,0),10);*/
+
+        //指定时间消费
+      /*  List<PartitionInfo> partitionInfos = consumer.partitionsFor(Topic);
+        long fetchTime = new Date().getTime() - 1000 * 60 * 60;
+        HashMap<TopicPartition, Long> map = new HashMap<>();
+        for (PartitionInfo partitionInfo : partitionInfos) {
+            map.put(new TopicPartition(Topic,partitionInfo.partition()),fetchTime);
+        }+
+        Map<TopicPartition, OffsetAndTimestamp> parMap = consumer.offsetsForTimes(map);*/
+
 
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(1000));

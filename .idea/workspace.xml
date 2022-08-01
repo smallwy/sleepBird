@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/buffer/BufferDay01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/selector/NioDisCardClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/selector/NioDisCardServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kafka/MsgConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/MsgConsumer.java" afterDir="false" />
     </list>
@@ -302,26 +305,27 @@
       <recent name="com.example.demo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.selector" />
       <recent name="pubsub" />
       <recent name="helloWorld" />
       <recent name="com.example.redisdemo" />
       <recent name="Thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KafkaTest">
+  <component name="RunManager" selected="Application.NioDisCardClient">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafakaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.KafakaTest" />
+    <configuration name="BufferDay01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.buffer.BufferDay01" />
       <module name="sleepBird" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kafka.*" />
+          <option name="PATTERN" value="netty.buffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,54 +361,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NioDisCardClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.selector.NioDisCardClient" />
+      <module name="sleepBird" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.selector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NioDisCardServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.selector.NioDisCardServer" />
+      <module name="sleepBird" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.selector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProduceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SbRabbit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.ProduceTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProduceTest.send" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SbRabbit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.ProduceTest" />
-      <option name="METHOD_NAME" value="send" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -519,9 +516,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KafakaTest" />
-      <item itemvalue="JUnit.ProduceTest" />
-      <item itemvalue="JUnit.ProduceTest.send" />
+      <item itemvalue="Application.MsgConsumer" />
+      <item itemvalue="Application.KafkaTest" />
+      <item itemvalue="Application.BufferDay01" />
       <item itemvalue="Spring Boot.product-2" />
       <item itemvalue="Spring Boot.product-1" />
       <item itemvalue="Spring Boot.RedisApplication" />
@@ -530,16 +527,16 @@
       <item itemvalue="Spring Boot.UserCenterApplication" />
       <item itemvalue="Spring Boot.ProductCenterApplication" />
       <item itemvalue="Spring Boot.ConsumerSpringbootApplication" />
-      <item itemvalue="Application.MsgConsumer" />
-      <item itemvalue="Application.KafkaTest" />
+      <item itemvalue="Application.NioDisCardServer" />
+      <item itemvalue="Application.NioDisCardClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MsgConsumer" />
+        <item itemvalue="Application.NioDisCardClient" />
+        <item itemvalue="Application.NioDisCardServer" />
+        <item itemvalue="Application.BufferDay01" />
         <item itemvalue="Application.KafkaTest" />
-        <item itemvalue="Application.KafakaTest" />
-        <item itemvalue="JUnit.ProduceTest.send" />
-        <item itemvalue="JUnit.ProduceTest" />
+        <item itemvalue="Application.MsgConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +628,10 @@
       <workItem from="1657007631505" duration="4782000" />
       <workItem from="1657263269467" duration="1258000" />
       <workItem from="1658109462128" duration="7856000" />
-      <workItem from="1658481629189" duration="16347000" />
+      <workItem from="1658481629189" duration="21144000" />
+      <workItem from="1658890996896" duration="4802000" />
+      <workItem from="1659324290148" duration="987000" />
+      <workItem from="1659342359792" duration="2698000" />
     </task>
     <task id="LOCAL-00001" summary="聊天的设计">
       <created>1598351569127</created>
@@ -808,7 +808,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658556888711</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="kafka">
+      <created>1658558595312</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658558595312</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
