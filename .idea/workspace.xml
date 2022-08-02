@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e37c00f-88b4-4194-82e0-b93d6309b389" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/buffer/BufferDay01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/selector/NioDisCardClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/selector/NioDisCardServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/reactor/BaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/reactor/Reactor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/MsgConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/MsgConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/selector/NioDisCardClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/selector/NioDisCardClient.java" afterDir="false" />
     </list>
     <list id="36c1919a-2578-4d59-9b12-d7e705a8659f" name="No Changelist" comment="zk学习" />
     <option name="SHOW_DIALOG" value="false" />
@@ -333,13 +332,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.KafkaTest" />
+    <configuration name="Handler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.reactor.Handler" />
       <module name="sleepBird" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kafka.*" />
+          <option name="PATTERN" value="netty.reactor.Reactor" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,8 +346,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MsgConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.MsgConsumer" />
+    <configuration name="KafkaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.KafkaTest" />
       <module name="sleepBird" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -516,7 +515,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MsgConsumer" />
       <item itemvalue="Application.KafkaTest" />
       <item itemvalue="Application.BufferDay01" />
       <item itemvalue="Spring Boot.product-2" />
@@ -529,14 +527,15 @@
       <item itemvalue="Spring Boot.ConsumerSpringbootApplication" />
       <item itemvalue="Application.NioDisCardServer" />
       <item itemvalue="Application.NioDisCardClient" />
+      <item itemvalue="Application.Handler" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.NioDisCardClient" />
+        <item itemvalue="Application.Handler" />
         <item itemvalue="Application.NioDisCardServer" />
         <item itemvalue="Application.BufferDay01" />
         <item itemvalue="Application.KafkaTest" />
-        <item itemvalue="Application.MsgConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +630,7 @@
       <workItem from="1658481629189" duration="21144000" />
       <workItem from="1658890996896" duration="4802000" />
       <workItem from="1659324290148" duration="987000" />
-      <workItem from="1659342359792" duration="2698000" />
+      <workItem from="1659342359792" duration="11912000" />
     </task>
     <task id="LOCAL-00001" summary="聊天的设计">
       <created>1598351569127</created>
@@ -815,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658558595312</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="netty">
+      <created>1659345972256</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659345972256</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -979,7 +985,8 @@
     <MESSAGE value="mq学习" />
     <MESSAGE value="springboot整合rabbitmq" />
     <MESSAGE value="kafka" />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka" />
+    <MESSAGE value="netty" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1080,10 +1087,25 @@
           <line>243</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/concurrent/collections/MapTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/netty/reactor/Reactor.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/netty/reactor/Reactor.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -9,7 +9,7 @@ import java.nio.channels.SocketChannel;
 public class NioDisCardClient {
 
     public static void main(String[] args) throws IOException {
-        InetSocketAddress inetSocketAddress = new InetSocketAddress("127.0.0.1", 9990);
+        InetSocketAddress inetSocketAddress = new InetSocketAddress("127.0.0.1", 9888);
         SocketChannel socketChannel = SocketChannel.open(inetSocketAddress);
         socketChannel.configureBlocking(false);
 
@@ -21,7 +21,7 @@ public class NioDisCardClient {
         System.out.println("客户端连接成功");
 
         ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
-        byteBuffer.put("hello world1111".getBytes());
+        byteBuffer.put("阿聪".getBytes());
         byteBuffer.flip();
         //发送到服务器
         socketChannel.write(byteBuffer);
