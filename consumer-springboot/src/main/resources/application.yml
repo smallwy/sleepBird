@@ -5,3 +5,19 @@ spring:
     username: stone
     password: stone123
     virtual-host: /stone
+  kafka:
+    consumer:
+      bootstrap-servers: 192.168.0.78:9092
+      group-id: my-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      bootstrap-servers: 192.168.0.78:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      properties:
+        retries: 3
+        batch.size: 16384
+
+

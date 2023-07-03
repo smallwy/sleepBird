@@ -41,7 +41,7 @@ public class CuratorTest {
         curatorFramework.start();
 
         String s = curatorFramework.create().withMode(CreateMode.PERSISTENT).forPath("/curator‐node", "some‐data".getBytes());
-        log.info("curator create node", s);
+        //log.info("curator create node", s);
 
     }
 }

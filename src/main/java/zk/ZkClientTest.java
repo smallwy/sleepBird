@@ -24,10 +24,10 @@ public class ZkClientTest {
             if (watchedEvent.getState() == Watcher.Event.KeeperState.SyncConnected &&
                     watchedEvent.getType() == Watcher.Event.EventType.None) {
                 countDownLatch.countDown();
-                log.info("连接成功");
+                //log.info("连接成功");
             }
         });
-        log.info("链接中。。。。");
+       // log.info("链接中。。。。");
         countDownLatch.await();
     }
 
@@ -37,11 +37,11 @@ public class ZkClientTest {
         String path = zooKeeper.create(ZK_NODE, "data".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         Watcher watcher = event -> {
             if (event.getType() == Watcher.Event.EventType.NodeDataChanged && event.getPath() != null && event.getPath().equals(ZK_NODE)) {
-                log.info("change path: {}", event.getPath());
+                //log.info("change path: {}", event.getPath());
             }
         };
 
-        log.info("created path: {}", path);
+        //log.info("created path: {}", path);
         TimeUnit.SECONDS.sleep(Integer.MAX_VALUE);
     }
 }
